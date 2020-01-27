@@ -1,5 +1,4 @@
  let addTwoNumbers=function (l1,l2){
-       console.log(addTwoNumbers);
       
        let dummyHead= new ListNode(0) , node=dummyHead;
        let carry= 0,a,b,c,value;
@@ -10,7 +9,7 @@
        c=a+b+carry;
        val=c%10;
        carry=Math.floor(c/10);
-       node.next=new Listnode(val);
+       node.next=new ListNode(val);
        node=node.next;
        if(l1 !==null) l1=l1.next;
        if(l2!==null) l2=l2.next;
