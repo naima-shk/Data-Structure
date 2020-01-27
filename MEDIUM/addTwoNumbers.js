@@ -1,4 +1,5 @@
  let addTwoNumbers=function (l1,l2){
+       console.log(addTwoNumbers);
       
        let dummyHead= new ListNode(0) , node=dummyHead;
        let carry= 0,a,b,c,value;
@@ -18,7 +19,6 @@
          node.next= new ListNode (carry);
        }
        return dummyHead.next;
-}
-
+      }
         
 
