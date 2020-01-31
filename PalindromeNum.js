@@ -1,3 +1,5 @@
+//with tostring
+
 var isPalindrome = function(x) {
     return true 
  
